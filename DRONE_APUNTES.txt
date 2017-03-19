@@ -1,0 +1,32 @@
+http://www.multiwii.com/wiki/?title=MultiWii_GUI
+https://code.google.com/archive/p/multiwii/downloads
+
+Descargas GUI
+https://code.google.com/archive/p/mw-wingui/downloads
+
+Algunas configuraciones
+http://flone.aeracoop.net/doc/wiki/configuracion-de-la-placa-multiwii/
+
+Multiwii v2.2
+Colocar en config
+QuadX
+#define CRIUS_SE_v2_0 
+
+http://www.multiwii.com/connecting-elements
+
+cONFIG.H
+http://www.multiwii.com/wiki/index.php?title=Config.h
+
+importante: tutorial configuracion y operacion
+https://www.youtube.com/watch?v=eJNlDlExKVE&ebc=ANyPxKp-O4TjMPvV6l9TZuPiI93w64XdJe6VLP0cSKsoziGm42qNq66QgpL2qw03kaBG5ciHuwjw52lg70aoT1MOLWofauI68A
+
+-------------------------------
+DRONE C250
+https://www.youtube.com/watch?v=CurZcrCjies
+
+CALIBRACION
+http://www.multiwii.com/forum/viewtopic.php?f=18&t=6923
+
+
+-----------------------------
+DRONE F450

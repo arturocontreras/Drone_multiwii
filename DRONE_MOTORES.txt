@@ -1,0 +1,65 @@
+FRONT_L D3
+FRONT_R D10
+
+REAR_L  D11
+REAR_R  D9
+
+    motor[0] = PIDMIX(-1,+1,-1); //REAR_R
+    motor[1] = PIDMIX(-1,-1,+1); //FRONT_R
+    motor[2] = PIDMIX(+1,+1,+1); //REAR_L
+    motor[3] = PIDMIX(+1,-1,-1); //FRONT_L
+
+
+Pasos:
+*Ensamblaje
+https://www.youtube.com/watch?v=o7Zev6AkY1M
+https://www.youtube.com/watch?v=cZQ1HFcxAh0
+
+*ESC brushless connection
+*Drone multiwii ESC
+*ESC Calibration
+http://www.multiwii.com/forum/viewtopic.php?f=16&t=4293
+http://www.multiwii.com/wiki/?title=ESC_Calibration
+https://www.youtube.com/watch?v=OOplk52R4no
+
+*Vuelo basico
+https://www.youtube.com/watch?v=KRRshhKAo3Y
+*Armar y desarmar el drone
+https://www.youtube.com/watch?v=inhqYr3mPwI
+
+*Como Volar Syma x5c-1 2.4 Ghz
+https://www.youtube.com/watch?v=gabz6TaaMZA
+
+
+MINCOMMAND : minima velocidad para calibrar
+
+*Tutorial del chibolo
+https://www.youtube.com/watch?v=JmXeUN6KHsY
+
+Motores
+1: Tiene problema de que no acelera
+2. Motor 4 posee menor velocidad y por ello no se equilibra. Averiguar como hacer para que todos los motores tengan la misma velocidad.
+
+*Colocando los propeleres
+https://www.youtube.com/watch?v=NzdE99yZj6Y
+
+//
+
+    #define MINTHROTTLE 1150 // 1150(*) (**)
+
+  /****************************    Motor maxthrottle    *******************************/
+    /* this is the maximum value for the ESCs at full power, this value can be increased up to 2000 */
+    #define MAXTHROTTLE 1950 //1950
+
+  /****************************    Mincommand          *******************************/
+    /* this is the value for the ESCs when they are not armed
+       in some cases, this value must be lowered down to 900 for some specific ESCs, otherwise they failed to initiate */
+    #define MINCOMMAND  950 //1000
+
+  /**********************************  I2C speed for old WMP config (useless config for other sensors)  *************/
+    #define I2C_SPEED 100000L 
+
+
+
+#define MINCHECK 1100
+#define MAXCHECK 1900

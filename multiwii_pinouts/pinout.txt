@@ -1,0 +1,9 @@
+Fly sky receptor  |   Multiwii
+
+CH1   |  D4
+CH2   |  D5
+CH3   |  D2
+CH4   |  D6
+CH5   |  D7
+CH6   |  D8
+
